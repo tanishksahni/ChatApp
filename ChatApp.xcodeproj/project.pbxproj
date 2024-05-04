@@ -12,6 +12,8 @@
 		CEB853272BE5088B003F0ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB853262BE5088B003F0ACD /* Assets.xcassets */; };
 		CEB8532A2BE5088B003F0ACD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB853292BE5088B003F0ACD /* Preview Assets.xcassets */; };
 		CEB853312BE50CCE003F0ACD /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB853302BE50CCE003F0ACD /* ChatView.swift */; };
+		CEB853332BE51771003F0ACD /* Chats.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB853322BE51771003F0ACD /* Chats.swift */; };
+		CEB853352BE51B25003F0ACD /* MessageScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB853342BE51B25003F0ACD /* MessageScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		CEB853262BE5088B003F0ACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB853292BE5088B003F0ACD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEB853302BE50CCE003F0ACD /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		CEB853322BE51771003F0ACD /* Chats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chats.swift; sourceTree = "<group>"; };
+		CEB853342BE51B25003F0ACD /* MessageScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				CEB853262BE5088B003F0ACD /* Assets.xcassets */,
 				CEB853282BE5088B003F0ACD /* Preview Content */,
 				CEB853302BE50CCE003F0ACD /* ChatView.swift */,
+				CEB853322BE51771003F0ACD /* Chats.swift */,
+				CEB853342BE51B25003F0ACD /* MessageScreenView.swift */,
 			);
 			path = ChatApp;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEB853252BE50888003F0ACD /* ContentView.swift in Sources */,
+				CEB853332BE51771003F0ACD /* Chats.swift in Sources */,
+				CEB853352BE51B25003F0ACD /* MessageScreenView.swift in Sources */,
 				CEB853312BE50CCE003F0ACD /* ChatView.swift in Sources */,
 				CEB853232BE50888003F0ACD /* ChatAppApp.swift in Sources */,
 			);
